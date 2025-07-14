@@ -1,0 +1,274 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+    padding: 0px;
+    background-color: #EDEDED;
+    color: #212529;
+}
+
+
+
+.nav-bar {
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+    justify-content: center;
+    padding: 0px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 1.3em;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+
+.nav-bar a:hover {
+    transform: scale(1.03);
+    background-color: aqua;
+    color: black;
+}
+
+#hero h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.tenis {
+    height: 40%;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.image {
+    padding: 0px;
+    margin: 0px;
+    gap: 50px;
+    display: flex;
+    justify-content: left;
+
+    background-color: white;
+}
+
+.image p {
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.tenis {
+    border: rgba(0, 0, 0, 0.363) 1px solid;
+    border-radius: 20px;
+}
+
+.product-text {
+    display: flex;
+    justify-content: left;
+}
+
+.formulary {
+    display: flex;
+    justify-content: center;
+}
+
+.button-submit {
+    display: flex;
+    width: 225px;
+    height: 70px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+.button-submit:hover {
+    background-color: rgb(3, 202, 202);
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+#beneficios h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.grid-beneficios {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 40px;
+
+}
+
+.item h3 {
+    margin-left: 20px;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    transition: transform 0.6s ease;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    background-color: aqua;
+    color: black;
+}
+
+.item p {
+    margin-left: 10px;
+}
+
+#Depoimentos h2 {
+    text-align: center;
+}
+
+.card {
+    margin-left: 20px;
+    background-color: #adadad5d;
+    color: rgb(0, 0, 0);
+    margin: 0px 30px 20px 30px;
+    border: #4444440c solid 1px;
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.Dep {
+    margin-left: 20px;
+}
+
+.card span {
+    font-size: 0.9em;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario h2 {
+    color: #000000;
+    margin-bottom: 30px
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px #0a0a0a7a;
+
+}
+
+button {
+    background-color: aqua;
+    color: #111;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: bacbackground-color 0.6s ease;
+    box-shadow: 1px 2px 3px black;
+    transition: transform 0.3s ease;
+
+}
+
+button:hover {
+    background-color: rgb(3, 202, 202);
+    transform: scale(1.03);
+}
+
+.borda {
+    border: 2px solid black;
+    padding: 10px 0px 10px 10px;
+    width: 600px;
+    display: flexbox;
+    margin: auto;
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 0.95em;
+}
+
+footer ul {
+    list-style: none;       
+     padding: 0;
+    margin: 20px 0;
+}
+
+footer a {
+    list-style: none;       
+    padding: 0;
+    margin: 20px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
