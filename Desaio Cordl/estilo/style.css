@@ -15,8 +15,17 @@
 }
 
 html, body {
-    background-color: darkgray;
+    background-color: rgb(10, 10, 10);
     min-height: 100vh;
+
+    margin: auto;
+}
+
+.container{
+    max-width: 1360px; /* Define a largura máxima */
+    margin: 0 auto;    /* Centraliza o container na tela */
+    background-color: white; /* Define o fundo do conteúdo */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 header{
@@ -47,8 +56,10 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
+
+
 section{
-    font-size: 3.1vw;
+    font-size: 2.3vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -56,6 +67,9 @@ section{
     font-family: var(--fonte3);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 
 section.normal{
     background-color: white;
@@ -65,6 +79,9 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.623);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.712);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -74,6 +91,17 @@ section.imagem > p{
     
 }
 
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    
+}
 
 footer{
     background-color: black;
