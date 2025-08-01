@@ -6,6 +6,7 @@
     <title>Document</title>
     <style>
 
+
         caption{
             font-size: 1.5em;
             font-weight: bold;
@@ -14,6 +15,12 @@
             border: 1.5px solid gray;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:  rgb(107, 107, 107);
+        }
+       
         thead, tfoot{
             background-color: rgb(107, 107, 107);
             color: white;
@@ -27,59 +34,132 @@
         }
 
         table{
+            position: relative;
             border-collapse: collapse;
-            width: 400px;
+            width: 500px;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        div{
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
     <h1>Uso de tabelas Grandes</h1>
-    <table>
-        <caption>População dos Estados
-        </caption>
-        <thead>
-            <tr>
-                <th>Estado
-                <th>População
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>São Paulo
-                <td>20 Milhões
-            </tr>
-            <tr>
-                <td>Minas
-                <td>15 Milhões
-            </tr>
-            <tr>
-                <td>Bahia
-                <td>13 Milhões
-            </tr>
-            <tr>
-                <td>Rio Grande do Sul
-                <td>10 Milhões
-            </tr>
-            <tr>
-                <td>Rio de Janeiro
-                <td>20 Milhões
-            </tr>
-            <tr>
-                <td>Parana
-                <td>8 Milhões
-            </tr>
-            <tr>
-                <td>Pernanbuco
-                <td>5 Milhões
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>Total de Habitantes</th>
-                <td>****</td>
-            </tr>
-        </tfoot>
-        
-    </table>
+    <div>
+        <table>
+            <caption>População dos Estados
+            </caption>
+            <thead>
+                <tr>
+                    <th>Estado
+                    <th>População
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo
+                    <td>20 Milhões
+                </tr>
+                <tr>
+                    <td>Minas
+                    <td>15 Milhões
+                </tr>
+                <tr>
+                    <td>Bahia
+                    <td>13 Milhões
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul
+                    <td>10 Milhões
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro
+                    <td>20 Milhões
+                </tr>
+                <tr>
+                    <td>Parana
+                    <td>8 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+                <tr>
+                    <td>Pernanbuco
+                    <td>5 Milhões
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total de Habitantes</th>
+                    <td>****</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    
+    
 </body>
 </html>
