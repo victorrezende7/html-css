@@ -1,1 +1,7 @@
-/*Aparelho em pe(retrato}*/
+/*Aparelho em pe(retrato}00*/
+
+body{
+    background: url(../imagens/cev-portrait.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+}
